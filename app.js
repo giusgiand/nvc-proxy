@@ -5,7 +5,7 @@ const express = require('express');
 const { createProxyMiddleware, responseInterceptor } = require('http-proxy-middleware');
 const fetch = require('cross-fetch');
 
-const PORT = 3000;
+const PORT = 10000;        // standard default port for Render
 const HOST = '127.0.0.1';  // NB: don't use "localhost" on Node version >= 17
 const TARGET_URL = "https://giusgiand.altervista.org/share";
 const SERVICE_URL = "https://juliusnic.altervista.org/public/getFacebookMetaByPropertyId.json";
