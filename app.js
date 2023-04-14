@@ -2,7 +2,7 @@
 // NB: this version requires installing http-proxy-middleware@3.0.0-beta.1
 
 const express = require('express');
-const { createProxyMiddleware, responseInterceptor } = require('http-proxy-middleware@3.0.0-beta.1');
+const { createProxyMiddleware, responseInterceptor } = require('http-proxy-middleware');
 const fetch = require('cross-fetch');
 
 const PORT = 3000;
